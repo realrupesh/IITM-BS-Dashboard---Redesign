@@ -1,0 +1,153 @@
+/* source-sans-pro-latin-400-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* source-sans-pro-latin-600-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.exam_hall_tickets {
+  margin: 0 30px !important;
+  padding: 0 !important;
+}
+
+.no_hall_tickets {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  font-family: "Inter Variable", sans-serif !important;
+  padding: 8px 15px !important;
+  border: 1px solid #ffffff2e !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  width: fit-content !important;
+  border-radius: 5px !important;
+  color: rgb(154, 154, 154) !important;
+}
+
+table.table {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  font-family: "Inter Variable", sans-serif !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+table,
+.table-responsive-sm,
+.dashboard-content,
+.table-responsive {
+  margin: 0 !important;
+  overflow: visible !important;
+}
+
+th,
+td {
+  padding: 8px 15px !important;
+}
+
+th {
+  color: #efd6ac !important;
+}
+
+.border-bottom {
+  border-bottom: none !important;
+}
+
+table {
+  border-collapse: collapse !important;
+  border-radius: 8px !important;
+  border-style: hidden !important;
+  box-shadow: 0 0 0 1px #ffffff2e !important;
+  column-width: auto !important;
+}
+td,
+th {
+  border-top: 1px solid #ffffff2e !important;
+  border-right: 1px solid #ffffff2e !important;
+  border-left: 1px solid #ffffff2e !important;
+  border-bottom: 0 solid #ffffff2e !important;
+}
+
+.dashboard-button {
+  background-color: #c44900 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  padding: 8px 15px !important;
+  margin: 20px 0 !important;
+  border: none !important;
+  border-radius: 5px !important;
+  width: fit-content !important;
+}
+
+.dashboard-button:hover {
+  background-color: #a33c01 !important;
+  transition: all 0.3s ease !important;
+}
+
+.text-primary {
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  color: white !important;
+  background-color: rgba(147, 147, 147, 0.1) !important;
+  padding: 8px 15px !important;
+  margin: 25px 0 !important;
+  border: 1px solid rgba(196, 72, 0, 0.5) !important;
+  border-radius: 5px !important;
+  backdrop-filter: blur(90px);
+}
+
+.support-email-text {
+  color: #c44900;
+}
+
+.dashboard-content .dashboard-button {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+}
+
+a.text-decoration-none.col-md-6.text-center.col-12.dashboard-button:hover {
+  color: #efd6ac !important;
+  transition: all 0.3s ease;
+}

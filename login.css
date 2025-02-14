@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+/* source-sans-pro-latin-normal-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-normal-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-normal-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* source-sans-pro-latin-600-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1b4340 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dddddd58 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dedede77 !important;
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  background-image: url(https://svgur.com/i/19B8.svg);
+  background-size: contain !important;
+  background-repeat: repeat-y !important;
+  background-color: #183a37 !important;
+  background-position: center !important;
+}
+
+*::selection {
+  background-color: #efd6ac !important;
+  color: black !important;
+}
+
+/* NAVBAR TO BE DONE */
+
+#mainContent .login_background {
+  background: transparent !important;
+  min-height: auto !important;
+}
+
+.login_background footer.bg-primary,
+.row .col-12 {
+  display: none !important;
+}
+
+.login_background .signin_section {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  gap: 60px !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-content: center !important;
+  align-items: flex-start !important;
+}
+
+.login_background .signin_section .login-card {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 20px !important;
+  max-width: 330px !important;
+}
+
+section.simple-signin p.text-muted {
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  text-align: left !important;
+}
+section.simple-signin h3.text-muted,
+.updates-card .text-white {
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: #efd6ac !important;
+  margin: 0 0 20px 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.signin_section .updates-card {
+  padding: 0 !important;
+  margin: 20px !important;
+  max-width: 360px !important;
+  height: 100% !important;
+}
+
+.firebaseui-idp-list .firebaseui-list-item .firebaseui-idp-button {
+  padding: 8px 15px !important;
+  margin: 30px 0 0 0 !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  box-shadow: none !important;
+  border: 1px solid #ffffff2e;
+  border-radius: 4px !important;
+  width: fit-content !important;
+}
+
+.firebaseui-idp-list .firebaseui-list-item .firebaseui-idp-button:hover {
+  background-color: rgba(225, 225, 225, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.firebaseui-idp-list
+  .firebaseui-list-item
+  .firebaseui-idp-button
+  .firebaseui-idp-text {
+  color: white !important;
+  font-size: 14px !important;
+  font-family: "Inter Variable", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.firebaseui-card-content,
+.mb-4 .form-signin,
+.mb-4,
+firebaseui-idp-list {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.firebaseui-container .firebaseui-card-footer {
+  padding: 0 !important;
+  margin: 10px 0 0 0 !important;
+}
+
+.firebaseui-card-footer p.firebaseui-tos {
+  color: white;
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+.firebaseui-card-footer .firebaseui-tos a.vfirebaseui-tos-link,
+.firebaseui-card-footer .firebaseui-tos .firebaseui-link {
+  background-color: transparent !important;
+  color: #efd6ac !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-family: "Inter Variable", sans-serif !important;
+}
+
+.firebaseui-card-footer .firebaseui-tos a.vfirebaseui-tos-link:hover,
+.firebaseui-card-footer .firebaseui-tos .firebaseui-link:hover {
+  color: white !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+.firebaseui-card-content .firebaseui-idp-list .firebaseui-list-item {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+.updates-card::after {
+  box-sizing: border-box !important;
+  content: "" !important;
+  /* background: url(https://i.imgur.com/xq5WaJR.png) !important; */
+  /* background: url(https://svgur.com/i/1B9u.svg) !important; */
+  background: url(https://svgur.com/i/1B9b.svg) !important;
+  min-width: 331px !important;
+  min-height: 94px !important;
+  background-repeat: no-repeat !important;
+  display: block !important;
+  margin: 40px 0 0 0 !important;
+}
+
+.update_item--title .mr-1 {
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 16px !important;
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.update_item--title .update_item--level {
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: black !important;
+  padding: 5px 8px !important;
+  background-color: #efd6ac !important;
+}
+
+.update_list .update_item .update_item--description {
+  font-family: "Inter Variable", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #efd6ac !important;
+  padding: 20px 0 0 !important;
+}
+
+body .fixed-top {
+  display: none !important;
+}
+
+#mainContent .alert {
+  margin: 0 !important;
+  padding: 8px 15px !important;
+  position: absolute !important;
+  top: 100px !important;
+  right: 45% !important;
+  max-width: fit-content !important;
+  color: white !important;
+  font-weight: 400 !important;
+  font-family: "Inter Variable", sans-serif !important;
+  background-color: rgba(225, 225, 225, 0.05) !important;
+  backdrop-filter: blur(90px) !important;
+  box-shadow: none !important;
+  border: 1px solid #ffffff12;
+  border-radius: 6px !important;
+}

@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white !important;
+}
+
+/* source-sans-pro-latin-400-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* source-sans-pro-latin-600-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1b4340 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dddddd58 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dedede77 !important;
+  transition: all 0.3s ease;
+}
+
+.text-dark {
+  color: white !important;
+}
+
+.courses-history {
+  background-color: transparent !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  background-image: url(https://svgur.com/i/19B8.svg);
+  background-size: contain !important;
+  background-repeat: repeat-y !important;
+  background-color: #183a37 !important;
+  background-position: center !important;
+}
+
+.back-to-dashboard {
+  display: none !important;
+}
+
+*::selection {
+  background-color: #efd6ac !important;
+  color: black !important;
+}
+
+#student_info + #fixedTop {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+  }
+}
+
+.navbar,
+.p-3 {
+  padding: 8px 50px !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-brand img {
+  height: 40px !important;
+  display: none;
+}
+li.nav-item {
+  margin: 0 !important;
+}
+
+.reporting {
+  display: none;
+}
+
+#fixedTop {
+  box-shadow: none;
+}
+
+[class*="btn-outline-"] {
+  border: none;
+  padding: 5px 15px;
+  background-color: #c44900;
+}
+
+h6,
+.h6,
+.btn-sm {
+  font-size: 12px !important;
+  font-family: "Source Sans Pro";
+  text-transform: uppercase !important;
+  color: white !important;
+}
+
+li.nav-item:nth-child(-n + 2) {
+  display: flex;
+  align-items: center;
+}
+
+li.nav-item:nth-child(-n + 2) :hover {
+  background-color: #ffffff35;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 15px;
+}
+
+button.btn.btn-sm.btn-outline-dark:hover {
+  background: #9a410c;
+  transition: all 0.3s ease;
+}
+
+.fa-user,
+.fa-bell {
+  margin-left: 5px;
+}
+
+.navbar-brand {
+  height: 40px;
+}
+
+.navbar-brand::before {
+  content: url(https://svgur.com/i/19A8.svg);
+  /* display: inline-block; 
+  /* font-family: "Source Sans Pro";
+  font-size: 40px;
+  font-weight: 600;
+  color: white; */
+}
+
+#sidebar-container {
+  display: flex !important;
+  align-items: center;
+}
+
+.icon-box {
+  height: 20px !important;
+  padding: 0 10px 0 10px !important;
+}
+
+#sidebar-container .list-group .list-group-item {
+  color: white;
+  padding: 10px 5px 10px 5px;
+  border-radius: 8px;
+  margin: 3px 0;
+  border: 1px solid #ffffff2e;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  box-shadow: none !important;
+}
+
+#sidebar-container .list-group .list-group-item:hover {
+  background-color: rgba(226, 226, 226, 0.4) !important;
+  transition: all 0.3s ease;
+}
+
+#sidebar-container .list-group {
+  margin: 0 15px 50px 15px;
+}
+
+.fa-2x {
+  font-size: 20px;
+}
+
+.fa-angle-double-right:before {
+  content: "\f105" !important;
+  padding-left: 15px !important;
+}
+
+.fa-angle-double-left:before {
+  content: "\f104" !important;
+  padding-left: 15px !important;
+}
+
+.list-group-item-action {
+  cursor: pointer;
+}
+span.menu-collapsed {
+  width: 200px;
+}
+
+.copy-rights {
+  background-color: #304d4b !important;
+  color: white !important;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  padding: 15px 50px !important;
+}
+
+h6:hover,
+h6 > span:hover {
+  background: none !important;
+  transition: all 0.3s ease;
+}
+
+.dashboard-heading {
+  font-size: 48px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  margin: 40px 0 30px !important;
+  padding: 0 !important;
+  border: none !important;
+}

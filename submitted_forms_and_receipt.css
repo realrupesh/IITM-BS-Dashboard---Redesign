@@ -1,0 +1,113 @@
+/* source-sans-pro-latin-400-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* source-sans-pro-latin-600-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.dashboard .dashboard-heading {
+  margin: 15px 0 30px !important;
+}
+
+.submitted_document {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  border: 1px solid #ffffff2e !important;
+  border-radius: 8px !important;
+  padding: 8px 8px 8px 15px !important;
+  margin-bottom: 20px !important;
+  align-items: center !important;
+}
+
+.document_action {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 8px 8px 0 !important;
+  border-top: 1px solid transparent !important;
+  border-right: 1px solid transparent !important;
+  border-bottom: 1px solid transparent !important;
+  border-left: 1px solid #ffffff2e !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden !important;
+  width: max-content !important;
+  /* border-collapse: collapse !important; */
+}
+
+.document_action a {
+  font-size: 14px !important;
+  font-family: "Inter Variable", sans-serif !important;
+  color: white !important;
+  font-weight: 400 !important;
+  height: 100% !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 5px 15px !important;
+}
+
+.document_action a:hover {
+  color: #efd6ac !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  transition: all 0.3s ease;
+}
+
+.mr-2 {
+  font-size: 20px !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #ffff !important;
+  font-weight: 400 !important;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+p i {
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #cccccc !important;
+  font-family: "Inter Variable", sans-serif !important;
+}

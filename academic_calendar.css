@@ -1,0 +1,91 @@
+/* source-sans-pro-latin-400-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-400-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* source-sans-pro-latin-600-normal */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/source-sans-pro@latest/latin-600-normal.woff)
+      format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* inter-latin-wght-normal */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.dashboard .dashboard-heading {
+  margin: 15px 0 30px !important;
+}
+
+p.custom_calendar_info {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  font-family: "Inter Variable", sans-serif !important;
+  padding: 8px 15px !important;
+  border: 1px solid #ffffff2e !important;
+  background-color: rgba(225, 225, 225, 0.1) !important;
+  backdrop-filter: blur(90px) !important;
+  /* width: 450px !important; */
+  border-radius: 5px !important;
+  color: rgb(154, 154, 154) !important;
+  margin: 15px 0 !important;
+  width: fit-content !important;
+}
+
+.fa-calendar {
+  display: none !important;
+}
+
+span.text-dark,
+.dashboard-sub-heading {
+  font-size: 20px !important;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #efd6ac !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+}
+
+.dashboard-button {
+  background-color: #c44900 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: white !important;
+  padding: 8px 15px !important;
+  margin: 0 30px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  width: fit-content !important;
+}
+
+.dashboard-button:hover {
+  background-color: #973700 !important;
+  transition: all 0.3s ease;
+}
